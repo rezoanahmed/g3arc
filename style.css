@@ -13,6 +13,14 @@
     padding: 15px 20px;
     border: none;
     font-size: 1rem;
+    border: 1px solid transparent;
+    transition: .5s ease-in-out;
+}
+.button-primary:hover{
+    color: #FF900E;
+    border: 1px solid #FF900E;
+    background-color: transparent;
+    transition: .5s ease-in-out;
 }
 
 /* styles */
@@ -40,6 +48,7 @@ nav{
     color: #424242;
     font-size: 1.25rem;
 }
+
 .banner{
     margin: 50px auto;
     text-align: center;
